@@ -87,7 +87,7 @@ knitr
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle empty
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -178,6 +178,30 @@ Department of Statistics
 \end_inset
 
 Presidency University, Kolkata
+\end_layout
+
+\begin_layout Abstract
+This project focuses on backcasting past temperatures in Greenland using
+ paleoclimate data from ice cores.
+ The objective is to understand historical changes in temperature in Greenland
+ and develop a model to backcast past temperatures.
+ The project includes data collection, univariate and multivariate analysis,
+ and model selection and fitting.
+ The exploratory data analysis includes descriptive measures and line plots
+ to identify trends and patterns.
+ Univariate modeling techniques were initially used but did not provide
+ satisfactory results.
+ Therefore, multivariate analysis was conducted using variables such as
+ CO2 concentration, volcanic eruption temperature, and ice surface temperature.
+ Linear regression was used to analyze the data, and the results were compared
+ to actual values to evaluate the accuracy of the model.
+ The final model achieved an accuracy of 96%.
+ The project faced challenges in acquiring sufficient and comparable data
+ and in analyzing the data due to the lack of prior knowledge in paleoclimate
+ analysis.
+ The bibliography includes sources on time series modeling of paleoclimate
+ data and software for paleoclimate research and education.
+ The Github link to the source code is provided.
 \end_layout
 
 \begin_layout Standard
