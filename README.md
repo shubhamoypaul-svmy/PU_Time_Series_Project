@@ -1,6 +1,5 @@
 # PU_Time_Series_Project
  Figure out how the temperature of green land has changed. Moreover, try to create such a model to backcast past temperatures.
-Certainly! Here's an example template for a README.md file for a university project:
 
 # Project on Peleoclimate Temperature Backcasting
 
@@ -24,9 +23,13 @@ install.packages("tseries")
 ```
 #Python
 ```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install python-math
+pip install scikit-learn
+
+
 
 ```
 ## Usage
