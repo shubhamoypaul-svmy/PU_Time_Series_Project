@@ -1,0 +1,6644 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+customHeadersFooters
+knitr
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Graphics
+	filename C:/Users/SVMY/Downloads/Presidency_University%2C_Kolkata_Logo.webp
+	scale 40
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\:$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\:$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Project on Peleoclimate Temperature Backcasting
+\begin_inset Newline newline
+\end_inset
+
+Presidency University
+\begin_inset Newline newline
+\end_inset
+
+4th Semester
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\:$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Shubhamoy Paul
+\begin_inset Newline newline
+\end_inset
+
+Reg.
+ No: 21414170024
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\:$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+02-06-2023
+\end_layout
+
+\begin_layout Author
+Department of Statistics
+\begin_inset Newline newline
+\end_inset
+
+Presidency University, Kolkata
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Introduction:
+\end_layout
+
+\begin_layout Standard
+According to recent studies, we have seen that most statisticians are busy
+ predicting the current temperature, which is obviously most important for
+ us.
+ However, they have forgotten to look at our past while predicting the current
+ temperature.
+ Millions of years ago, when our Earth was formed, it was just a ball of
+ fire; then, the temperature was much higher than today's.
+ Then slowly, our Earth cooled down, and that period was the ice age when
+ the temperature was freezing.
+ And then, after many actions and reactions, we got this Earth.
+ In this project, past temperature has played an important role.
+ To introduce this project properly, we need to know the answer to some
+ questions.
+ These questions are
+\end_layout
+
+\begin_layout Subsubsection*
+1.
+ What is the meaning of paleoclimate?
+\end_layout
+
+\begin_layout Standard
+Paleoclimate refers to the study of past climates on Earth before it was
+ possible to measure them directly.
+ Paleoclimate research tries to figure out how the climate used to be, how
+ it changed, and how it changed over time by looking at proxy records like
+ ice cores, tree rings, sediment cores, and old documents.
+ After taking a look at the way the climate has changed, scientists can
+ predict more about the system's work and how human actions affect the climate
+ now and in the future.
+\end_layout
+
+\begin_layout Subsubsection*
+2.
+ Why do we need to study paleoclimate or why scientist are interested to
+ study paleoclimate?
+\end_layout
+
+\begin_layout Standard
+There are several reasons why scientists are interested in studying paleoclimate
+:
+\end_layout
+
+\begin_layout Enumerate
+Understanding natural climate change: Scientists can learn more about how
+ the Earth's climate system changes on different time scales, from decades
+ to millions of years, by looking at how the climate has changed in the
+ past.
+ This information is vital for figuring out how the climate will change
+ and preparing for it.
+\end_layout
+
+\begin_layout Enumerate
+Evaluating the effects of human actions: Paleoclimate research can give
+ a long-term view of the effects of human actions on the climate system
+ so that they can be evaluated.
+ Scientists can determine how much human activities contribute to global
+ warming and climate change by looking at how the climate has changed in
+ the past and how they think it will change.
+\end_layout
+
+\begin_layout Enumerate
+Creating climate models: Paleoclimate data are needed to test and improve
+ climate models, which are used to simulate how the climate will be in the
+ future.
+ By comparing model simulations to paleoclimate data, scientists can determine
+ how accurate their models are and find places to improve their models.
+\end_layout
+
+\begin_layout Enumerate
+Paleoclimate research can help determine the range of possible climate scenarios
+ for the future, including extreme events like droughts, floods, and heat
+ waves.
+ This information is vital for figuring out how to deal with climate change's
+ effects and what risks are involved.
+\end_layout
+
+\begin_layout Standard
+Studying paleoclimate gives us essential information about the Earth's climate
+ system and is necessary to understand and deal with the problems that climate
+ change poses.
+\end_layout
+
+\begin_layout Section*
+Data Collection:
+\end_layout
+
+\begin_layout Standard
+There are commonly used proxies in paleoclimate analysis, including:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-2"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Ice cores: To get ice cores, scientists drill 
+\color blue
+[
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ice-driller-machines"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+] 
+\color inherit
+deep into ice sheets in places like Antarctica and Greenland.
+ These cores hold information about the temperature and chemical makeup
+ of the atmosphere from hundreds of thousands of years ago.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/Picture1.jpg
+	scale 30
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ice-driller-machines"
+
+\end_inset
+
+Ice driller machines
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Img
+\backslash
+footnote{
+\backslash
+url{https://www.nsf.gov/news/news_images.jsp?cntn_id=112909&org=NSF}.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/Picture2.jpg
+	scale 40
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ice Layers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+Sediment cores: Scientists take sediment cores from the ocean floor and
+ lake beds.
+ These cores hold information about how the climate used to be and how it
+ changed in the past.
+ The layers of sediment can tell us about the temperature, the amount of
+ rain, and the types of plants that were growing at the time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/horizontal-cartoon.jpg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sediment Core data extraction Process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/Photographs-of-sediment-cores-from-reservoirs-A-B-Core-from-Grimselsee-Sediment-from.png
+	scale 25
+	BoundingBox 0bp 0bp 850bp 806bp
+	clip
+	rotateAngle 270
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sediment Core Layers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Img
+\backslash
+footnote{
+\backslash
+url{https://upload.wikimedia.org/wikipedia/commons/b/bc/GISP2D1837_crop.jpg}.}
+\end_layout
+
+\begin_layout Plain Layout
+
+Img
+\backslash
+footnote{
+\backslash
+url{https://godwinlab.esc.cam.ac.uk/analytical-resources/research-laboratories/the-s
+edimentary-laboratory}.}
+\end_layout
+
+\begin_layout Plain Layout
+
+Img
+\backslash
+footnote{
+\backslash
+url{https://www.researchgate.net/figure/Photographs-of-sediment-cores-from-reservo
+irs-A-B-Core-from-Grimselsee-Sediment-from_fig5_220013406}.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+Tree rings: Changes in temperature and rainfall cause trees to grow in different
+ ways, which can be used to figure out about past weather.
+ Scientists can determine how temperatures and rainfall have changed over
+ time by looking at tree rings' width, density, and makeup.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/tree_rings_2.webp
+	scale 15
+	clip
+	rotateOrigin leftTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+tree ring
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+Historical records: Things like diaries, ship logs, and weather reports
+ from the past can tell us about weather patterns and extreme events from
+ the past.
+ These records can give us informations about temperature millions of years
+ ago and are a great way to learn about the climate in the past, which is
+ called paleoclimate.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+
+Coral reefs: Coral reefs can tell us about the past temperatures and conditions
+ of the ocean.
+ By looking at coral skeletons, a scientist can quickly determine the under
+ water chemical changes and the temperature change at how coral skeletons
+ grew and what chemicals were in them.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/02_xray_coral_rt.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coral reefs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Paleoclimate data can be obtained from various sources, and each method
+ has strengths and limitations.
+ By combining data from multiple sources, scientists can build a complete
+ picture of past climate conditions and changes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Img
+\backslash
+footnote{
+\backslash
+url{https://climate.nasa.gov/news/2540/tree-rings-provide-snapshots-of-earths-past
+-climate/}.}
+\end_layout
+
+\begin_layout Plain Layout
+
+Img
+\backslash
+footnote{
+\backslash
+url{https://earthobservatory.nasa.gov/features/Paleoclimatology_CloseUp/paleoclima
+tology_closeup_2.php}.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+4.
+ Why we select ice-core to extract our data?:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-1"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ice cores provide a high-resolution record of past climate conditions, with
+ annual layers that can be used to track changes in temperature, precipitation,
+ atmospheric composition, and more.
+ Ice cores can provide records of past climate conditions dating back hundreds
+ of thousands of years, providing a long-term perspective on climate variability.
+ The layers in ice cores can be accurately dated using various methods,
+ including counting layers, analyzing volcanic ash layers, and measuring
+ isotopes.
+ Ice cores contain information about past climate conditions, including
+ atmospheric composition, temperature, precipitation, etc.
+ Scientists can build a more comprehensive picture of past climate conditions
+ by analyzing multiple proxies in ice cores.
+ Ice cores have been collected from different world regions, including Antarctic
+a, Greenland, and high-altitude glaciers.
+ By studying ice cores from different regions, scientists can investigate
+ regional and global patterns of climate change.
+ Ice cores are an excellent way to learn about past climate conditions and
+ changes.
+ However, collecting paleoclimate data is expensive, dangerous, and takes
+ a long time.
+ The people who collect data have to go through hard training and take care
+ of their health.
+ They can die while collecting data.
+ Because of this, these data are not open to the public.
+ There are only studies.
+ We have a dataset showing Greenland's temperature for the past 11500 years
+ from the National Centers for Environments Information website.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Data: 
+\begin_inset CommandInset href
+LatexCommand href
+name "View"
+target "https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/kobashi2017/kobashi2017greenland-preliminary.txt"
+literal "false"
+
+\end_inset
+
+
+\series default
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Univariate Analysis
+\end_layout
+
+\begin_layout Subsection*
+Data Descriptions:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This data was collected from a Kobashi scientific research paper 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-7"
+literal "false"
+
+\end_inset
+
+.
+ This paper is mainly about the reconstruction of Greenland's temperature
+ over the past 11,500 years for different reasons.
+ This paper has been approved by NCEI 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-6"
+literal "false"
+
+\end_inset
+
+.
+ It talks about the temperature of the air and the ice age.
+ The temperature of the air has two ranges, high and low.
+ The data is taken for the GISP2(Green Land Ice Sheet Project) about the
+ temperature over the past 11500 years.
+ The data has been collected after drilling into Sumit on the Greenland
+ Ice Sheet.
+ This research paper was published on May 3, 2017.
+ The place from which the data was collected.
+\end_layout
+
+\begin_layout Standard
+Northernmost Latitude: 72.6
+\end_layout
+
+\begin_layout Standard
+Southernmost Latitude: 72.6
+\end_layout
+
+\begin_layout Standard
+Easternmost Longitude: -38.5
+\end_layout
+
+\begin_layout Standard
+Westernmost Longitude: -38.5
+\end_layout
+
+\begin_layout Standard
+Evaluation: 3200m
+\end_layout
+
+\begin_layout Standard
+Here, the ice age is given in calibrated years before the present and in
+ the 2005 Greenland Ice Core Chronology.
+ It talks about a certain way to figure out how old ice cores from Greenland
+ are.
+ This timescale is based on the study of ice cores and other geological
+ data, and it shows how events in Greenland's past can be linked to each
+ other.
+ The time scale is set up so that if you add one unit to the ice age, you
+ go back one year.
+ Radio Carbon-calibrated methods are used to figure out the ice age.
+ A scale of degrees Celsius is used to measure the temperature here.
+ The data covers the past 12000 years, allowing us to categorize this series
+ into various Earth ages.
+ These are E.H.T.R.=Early Holocene Temperature Rise, M.H.C.=Mid-Holocene Cooling,
+ M.H.O.=Mid- Holocene Optimum, B.A.C.E.=Bronze Age Cold Epoch, B.A.O.=Bronze Age Optimum,
+ I.A.C.E.=Iron Age Cold Epoch, I.A.O.=Iron Age Optimum, M.C.A.=Medieval Climate Anomaly.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-3"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA,fig.width=10>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+## Import data file
+\end_layout
+
+\begin_layout Plain Layout
+
+data <- read.csv("C:/Users/SVMY/Downloads/University project github/univariate_fi
+nal.csv")
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+### greenland temperature line with regions
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(data$Greenland_temperature, type = 'l', xlab = 'Index', ylab = 'Values',xli
+m = rev(range(seq_along(data$Greenland_temperature))))
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(11300, -40, 9500, 0, col = "red",density = 10) #E.H.T.R.=Early Holocene
+ Temperature Rise
+\end_layout
+
+\begin_layout Plain Layout
+
+text(11300,-25.6,"-E.H.T.R.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(9500, -40, 7500, 0, col = "green",density = 10) #M.H.C.=Mid-Holocene Cooling
+\end_layout
+
+\begin_layout Plain Layout
+
+text(9500,-25.6,"-M.H.C.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(7500, -40, 5000, 0, col = "blue",density = 10) #M.H.O.=Mid-Holocene Optimum
+\end_layout
+
+\begin_layout Plain Layout
+
+text(7500,-25.6,"-M.H.O.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(1800, -40, 1500, 0, col = rgb(0.3, 0.7, 0.9),density = 10) #B.A.C.E.=Bronze
+ Age Cold Epoch
+\end_layout
+
+\begin_layout Plain Layout
+
+text(1800,-25.6,"-B.A.C.E.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(5000, -40, 3600, 0, col = "pink",density = 10)  #B.A.O.=Bronze Age Optimum
+\end_layout
+
+\begin_layout Plain Layout
+
+text(5000,-25.6,"-B.A.O.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(900, -40, 300, 0, col = "coral",density = 10)  #I.A.C.E.=Iron Age Cold
+ Epoch
+\end_layout
+
+\begin_layout Plain Layout
+
+text(900,-25.6,"-I.A.C.E.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(300, -40, 150, 0, col = "yellow",density = 10)  # I.A.O.=Iron Age Optimum
+\end_layout
+
+\begin_layout Plain Layout
+
+text(300,-25.6,"-I.A.O.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+rect(1100, -40, 800, 0, col = "#AE4371",density = 10)  #M.C.A.=Medieval Climate
+ Anomaly.
+\end_layout
+
+\begin_layout Plain Layout
+
+text(1100,-25.6,"-M.C.A.",,srt=90,xpd = TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+
+mtext("Greenland Temperature",3,cex = 1.0,line = 3.3)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Project Plan (project Road map):
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-1"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A time series project involves analyzing and modeling data to find trends,
+ seasonality, patterns, and relationships that can help make predictions
+ or decisions.
+ Here is a general plan for a time series project or a roadmap:
+\end_layout
+
+\begin_layout Enumerate
+Set Objective: Figure out how the temperature of green land has changed.
+ Moreover, try to create such a model to backcast past temperatures.
+\end_layout
+
+\begin_layout Enumerate
+Collect and preprocess data: We have to do cleaning, filtering, or scaling
+ if it needs before processing.
+ We have to ensure the data is in a format that can be analyzed.
+\end_layout
+
+\begin_layout Enumerate
+Exploratory data analysis: Conduct exploratory data analysis to understand
+ the data and its characteristics better.
+ This can involve visualizing the data, identifying trends and patterns,
+ and performing statistical tests.
+\end_layout
+
+\begin_layout Enumerate
+Model selection: Select an appropriate model or model to analyze the data.
+ Consider factors such as the nature of the data, the research question,
+ and the desired outcomes.
+\end_layout
+
+\begin_layout Enumerate
+Model fitting and validation: Fit the chosen model to the data and validate
+ its performance.
+ Use statistical metrics such as R-squared, mean squared error, and root
+ mean squared error to assess the model's accuracy.
+\end_layout
+
+\begin_layout Enumerate
+Backcasting: Use the model to predict past events or trends.
+ Evaluate the quality of the backcasts using appropriate metrics.
+\end_layout
+
+\begin_layout Enumerate
+Interpretation: Interpret the analysis results and compare them with the
+ actual temperature.
+\end_layout
+
+\begin_layout Subsubsection*
+Objective
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This project aims to investigate and understand the historical changes in
+ temperature in Greenland.
+ Analyses will be performed to identify patterns and trends, and a model
+ will be developed to backcast past temperatures.
+ Validating the model against known historical data and comparing it with
+ other reconstructions or paleoclimate records will assess its accuracy
+ and performance.
+ The developed model will be a valuable tool for backcasting past temperatures,
+ contributing to our knowledge of climate change and its impacts on this
+ region.
+\end_layout
+
+\begin_layout Subsubsection*
+Collect and preprocess data
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Loading the Greenland Temperature dataset:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+df <- read.csv('C:/Users/SVMY/Downloads/University project github/univariate_fina
+l.csv')
+\end_layout
+
+\begin_layout Plain Layout
+
+head(df)
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0(
+\begin_inset Quotes eld
+\end_inset
+
+Rows: 
+\begin_inset Quotes erd
+\end_inset
+
+, dim(df)[1]))
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0(
+\begin_inset Quotes eld
+\end_inset
+
+Columns: 
+\begin_inset Quotes erd
+\end_inset
+
+, dim(df)[2]))
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are 11556 rows and 4 columns in the data.
+\end_layout
+
+\begin_layout Standard
+We have seen that each column has 11 empty rows.
+ In the end, there are some outliers.
+ During the step called "preprocessing," we have to get cleared of these
+ "null" and "outlier" values.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+df <- df[1:11200,]
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0(
+\begin_inset Quotes eld
+\end_inset
+
+Rows: 
+\begin_inset Quotes erd
+\end_inset
+
+, dim(df)[1]))
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0(
+\begin_inset Quotes eld
+\end_inset
+
+Columns: 
+\begin_inset Quotes erd
+\end_inset
+
+, dim(df)[2]))
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Exploratory Data Analysis (EDA)
+\end_layout
+
+\begin_layout Subsubsection*
+Data Summary:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let us see some descriptive measure studies.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+summary(df)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The descriptive measures output shows that the youngest Age is -43(BP),
+ and the oldest Age is 11580(BP).
+ One unit is added to the age variable.
+ In the data, the lowest temperature is at -39.21 degrees Celsius, and the
+ highest is at -27.04 degrees Celsius.
+ The average is -33.9 degrees Celsius, and the middle point is -30.74 degrees
+ Celsius.
+ Furthermore, the min, max, mean, and median values are almost the same
+ for low and high values.
+ It also shows 11 NULL(empty) rows in every column.-
+\end_layout
+
+\begin_layout Subsubsection*
+Line plot of Greenland Tempareture:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA,fig.width=10>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+series = df$Greenland_temperature[1:11200]
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(series, type = 'l', xlab = 'Index', ylab = 'Values',main ='Greenland
+ Temperature',xlim = rev(range(seq_along(series))))
+\end_layout
+
+\begin_layout Plain Layout
+
+abline(v=9400, col="red")
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After If we look closely at the line plot, we can see that the Reverse X-indexin
+g is done.
+ It is not a mistake.
+ On the left side of the plot, we can see the values from the past year,
+ and on the right, we can see the current temperature.
+ We have some outliers at the end of the time series.
+\end_layout
+
+\begin_layout Subsubsection*
+Exploring Trend and Seasonality Patterns:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We used a 10-degree polynomial model to fit the data and then plotted it
+ on the actual data.
+ The primary purpose of this technique is to analyze time series data and
+ identify any cyclic, seasonal, or trend patterns.
+ This information can help conduct further analysis.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA,fig.width=10,fig.height=10>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+# Create example data
+\end_layout
+
+\begin_layout Plain Layout
+
+x <- 1:11200
+\end_layout
+
+\begin_layout Plain Layout
+
+y <- series
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Fit a 5-degree polynomial to the data
+\end_layout
+
+\begin_layout Plain Layout
+
+fit <- lm(y ~ poly(x, 20, raw = TRUE))
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Set up the plot area
+\end_layout
+
+\begin_layout Plain Layout
+
+par(mfrow=c(2,1), mar=c(5, 4, 4, 2) + 0.1, oma=c(0, 0, 2, 0))
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Create a new plot
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(x, y, type = "l", col = "blue", lwd = 2, xlab = "Time", ylab = "Value",xlim
+ = rev(range(seq_along(series))))
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Add the polynomial fit to the plot
+\end_layout
+
+\begin_layout Plain Layout
+
+lines(predict(fit), col = "red", lwd = 2)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Create a new plot
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(x, predict(fit), type = "l", col = "red", lwd = 2, xlab = "Age", ylab
+ = "Value",xlim = rev(range(seq_along(series))))
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on the polynomial plot, it is evident that there is no discernible
+ pattern between 0 and 9400.
+ However, after 9400, there is a noticeable downward trend.
+ Therefore, the data does not indicate seasonality or cyclic patterns.
+\end_layout
+
+\begin_layout Subsubsection*
+Augmented–Dickey–Fuller test:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In time series analysis, "stationarity" means that the statistical properties
+ of a series, like its mean, variance, and autocorrelation, stay the same
+ over time.
+ In other words, a stationary time series has a constant mean and variance,
+ and its correlation with its lagged values (autocorrelation) does not change
+ over time.
+ On the other hand, a non-stationary time series is one in which the statistical
+ properties change over time.
+ Trends, cycles, or seasonal patterns can appear in time series that remain
+ unchanged.
+ If the time series is not stationary, it can cause problems while building
+ a model, such as spurious correlations, instability, wrong parameter estimates,
+ and bad forecasting.
+ We need to check whether the time series is stationary to avoid these negative
+ effects.
+ There are several ways to determine whether a time series is stationary.
+ we use the most common method, the Augmented–Dickey–Fuller (ADF) test.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA,fig.width=10,fig.height=10>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+# Importing library
+\end_layout
+
+\begin_layout Plain Layout
+
+library(tseries)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Conduct the augmented Dickey-Fuller test
+\end_layout
+
+\begin_layout Plain Layout
+
+adf.test(series)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Interpretation of given ADF test result:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here -6.61 is the T statistic.
+ This is a negative number; the more negative it is, the stronger the evidence
+ against the null hypothesis of a unit root (nonstationary).
+ Then we have p-value is used to determine the significance of the test.
+ Here the value of p-values is 0.01, which is less than 0.05(significance
+ level); we will reject the null hypothesis of a unit root and conclude
+ that the time series is stationary.
+ The function is determined with 22 lags.
+ Overall, we fail to reject the null hypothesis of a unit root and conclude
+ that the time series is stationary.
+\end_layout
+
+\begin_layout Subsubsection*
+ACF and PACF plot
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In time series analysis, the Autocorrelation Function (ACF) and Partial
+ Autocorrelation Function (PACF) plots are important tools that help us
+ understand the nature of the time series data and choose the right models.
+ The ACF plot shows the correlation between a time series and its lagged
+ values.
+ It helps us identify the order of the moving average (MA) component of
+ the time series model.
+ In particular, if the ACF plot shows a sharp drop-off after a certain number
+ of lags, this means that the MA order of the model is equal to the number
+ of lags where the drop-off happens.
+ The PACF plot shows the relationship between a time series and its lags
+ after intermediate lags have been taken into account.
+ It helps us figure out the order of the autoregressive (AR) time series
+ model.
+ In particular, if the PACF plot shows a sharp drop-off after a certain
+ number of lags, this means that the AR order of the model is equal to the
+ number of lags where the drop-off happens.
+ In conclusion, the ACF and PACF plots are important tools in time series
+ analysis that can help us find the right models for the time series data
+ and make accurate predictions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA,fig.width=10,fig.height=5>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+# create ACF plot
+\end_layout
+
+\begin_layout Plain Layout
+
+acf(series, lag.max = 50, main = "ACF Plot")
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# create PACF plot
+\end_layout
+
+\begin_layout Plain Layout
+
+pacf(series, lag.max = 50, main = "PACF Plot")
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From this ACF and PACF plot, we can tell that the ACF plot doesn't have
+ a sharp drop-off.
+ But the PACF plot clearly shows that there is a sharp drop-off after 2
+ or 3 lags, so we should choose the AR model with 2 or 3 orders.
+\end_layout
+
+\begin_layout Section*
+Model selection
+\end_layout
+
+\begin_layout Subsection*
+Data splitting:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here the data is split into train and test datasets.
+ The purpose of splitting the data is to evaluate the performance of the
+ model on data that has not been used for model training, which helps to
+ assess how well the model is likely to perform on new, unseen data.
+ This can help us to assess the accuracy of the model and identify any potential
+ issues, such as overfitting, which occurs when the model fits the training
+ data too closely and does not generalize well to new data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo = F,comment+NA,fig.Width = 10,fig.height = 5>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+## Split train and test dataset
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+t_value <- as.integer(length(series)*(80/100))
+\end_layout
+
+\begin_layout Plain Layout
+
+train <- series[1:t_value]
+\end_layout
+
+\begin_layout Plain Layout
+
+test <- series[(t_value+1):length(series)]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0("Train: ", length(train)))
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0("Test: ", length(test)))
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, the train and test series are split into 80-20.
+ The train length is 8960, which is 80% of the actual series, and the test
+ length is 2240, which is 20% of the actual series.
+\end_layout
+
+\begin_layout Subsection*
+AR Model (Autoregressive Model)
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An Autoregressive (AR) model is a time series model that usually uses past
+ values of the variable being modeled to predict future values.
+ But here, we will perform a backcast using these model mean that the model
+ will use present temperature and will predict past temperature.
+ The basic idea behind an AR model is that the past value of the time series
+ depends on its present values, and this dependence can be captured mathematical
+ly using a linear regression model.
+\end_layout
+
+\begin_layout Standard
+an AR model can be represented as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $y_{t}=c+φ_{1}y{}_{t+1}+φ_{2}y_{t+2}+...+φ_{p}y_{t+p}+ε_{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where:
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Formula $y_{t}$
+\end_inset
+
+ is the value of the time series at time t.
+\end_layout
+
+\begin_layout Standard
+- c is a constant term.
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Formula $φ_{1},φ_{2},...,φ_{p}$
+\end_inset
+
+ are the autoregressive coefficients, which represent the weights assigned
+ to the present values of the time series.
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Formula $y_{t+1},y_{t+2},...,y_{t+p}$
+\end_inset
+
+ are the present values of the time series up to p lags.
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Formula $ε_{t}$
+\end_inset
+
+ is the error term, which represents the random variation in the time series
+ that is not explained by the autoregressive model.
+\begin_inset Newline newline
+\end_inset
+
+The order of the AR model is determined by the value of p, which represents
+ the number of lags included in the model.
+ For example, an AR(1) model uses only the present value of the time series
+ at lag 1 to predict the past value, while an AR(2) model uses the present
+ values at lags 1 and 2.
+ To estimate the parameters of an AR model, maximum likelihood estimation
+ or least squares estimation methods are commonly used.
+ Once the model parameters are estimated, the model can be used to make
+ predictions for past values of the time series.
+ According to the PACF plot, the AR model is fitted with order p= 2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+# we want to fit an AR(2) model
+\end_layout
+
+\begin_layout Plain Layout
+
+AR <- arima(train, order = c(2,0,0))
+\end_layout
+
+\begin_layout Plain Layout
+
+print(AR)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then the model will be,
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $y_{t}=-30.57+1.92y{}_{t+1}-0.91y_{t+2}+ε_{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Intrepreation:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Interpret the coefficient estimates for the AR(1) and AR(2) terms.
+ These represent the weights assigned to the present values of the time
+ series.
+ Here the estimated coefficient for AR(1) is 1.92; this means that each unit
+ increase in the value of the time series at lag one is associated with
+ a 1.92 unit increase in the past value of the time series, all else being
+ equal.
+ Similarly, if the estimated coefficient for AR(2) is -0.92, this means that
+ each unit increase in the value of the time series at lag two is associated
+ with a 0.92 unit decrease in the past value of the time series, all else
+ being equal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measure
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-45273.248
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-45244.846
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HQIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-45263.582
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here we have AIC and BIC value , this measure commonly used measures of
+ the goodness of fit of a model.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $n=\:$
+\end_inset
+
+number of observations.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $k=\:$
+\end_inset
+
+number of parameters to be estimated.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L_{max}=\:$
+\end_inset
+
+the maximized value of the log-Likelihood for the estimated model (fit the
+ parameters by MLE).
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $AIC=\left(\frac{2n}{n-k-1}\right)k-2ln\left[L_{max}\right]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\,$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $BIC=kln(n)-2ln(L_{max})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $HQIC=2ln[ln[n]]k-2ln[L_{max}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The lowest AIC, BIC, and HQIC values.
+ This indicates that the model provides the best trade-off between model
+ complexity and goodness of fit.
+\end_layout
+
+\begin_layout Subsection*
+Back casting past temperature:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The total time series is split into 80-20 percentages.
+ This means that 80% of time series data is considered train data, and remain
+ dataset is considered test data.
+\end_layout
+
+\begin_layout Standard
+After building an AR model based on train data, we want to use the model
+ to predict past temperatures.
+ Here, the size of the test data is the same size as the size of the back-calcul
+ated or predicted value because it will help to compare the predicted temperatur
+es with the actual temperatures in the past.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/AR(2)_test.svg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Backcast from AR(2)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here plot backcasted value with actual temperatures and add a 95% confidence
+ band.
+ The red line is the backcasted temperature, the blue line is the actual
+ past temperature, and the confidence band is denoted by the gray-shaded
+ region.
+ The diagram shows that the model is not performing well.
+ The model is unable to capture trends at the end of the time series.
+ Suppose we measure the goodness of fit of this AR model on test data.
+ We got poor performance on test data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Root Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3695.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3706.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we change the splitting percentage so that the train gets some trend
+ parts, we can hope the model will do better.
+\end_layout
+
+\begin_layout Standard
+So, The data is split with 85%,90%,95%, and 99% of the total series as training,
+ and the rest of the data consider test data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Final_figure/AR(2)_multi_test.svg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Backcast on multiple test data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now the goodness of fit measure is used to check that the model performs
+ better as we increase the test data size.
+ But overall, this model was not performing well.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MSE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RMSE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Train 85%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3181.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3192.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Train 90%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2548.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2558.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-3.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Train 95%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1429.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1437.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-14.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Train 99%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+110.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+116.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-6.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness fit for multiple train data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ARMA Model:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ARMA stands for Autoregressive Moving Average.
+ It is a statistical model utilized frequently for time series analysis
+ and forecasting.
+ The autoregressive component (AR) and the moving average component (MA)
+ are both included in the ARMA model.
+ The ARMA model combines these two components.
+ The general form of an ARMA model is represented as ARMA(p, q), where "p"
+ represents the order of the autoregressive component and "q" represents
+ the order of the moving average component.
+ The model can be written as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $Y_{t}=c+ϕ₁Y_{t-1}+ϕ₂Y_{t-2}+...+ϕ_{p}Y_{t-p}+ε_{t}+θ₁ε_{t-1}+θ₂ε_{t-2}+...+θ_{q}ε_{t-q}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Y_{t}$
+\end_inset
+
+ represents the value of the time series at time 
+\begin_inset Formula $t.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+c is a constant (intercept term).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $ϕ₁,ϕ₂,...,ϕ_{p}$
+\end_inset
+
+ are the autoregressive coefficients.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $ε_{t}$
+\end_inset
+
+ represents the residual (prediction error) at time 
+\begin_inset Formula $t.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $θ₁,θ₂,...,θ_{q}$
+\end_inset
+
+ are the moving average coefficients.
+\end_layout
+
+\begin_layout Standard
+We attempted to fit an ARMA model here.
+ A technique called grid search is used to determine the ARMA model's order
+ (p,q).
+ It entails analyzing numerous possible combinations of p and q values methodica
+lly and selecting the combination that results in the most accurate model.
+ Here, We choose the (p,q) order with the smallest possible AIC value.
+ This allows me to determine that the order is (3,5).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+# we want to fit an AR(2) model
+\end_layout
+
+\begin_layout Plain Layout
+
+ARMA <- arima(train, order = c(3,0,5))
+\end_layout
+
+\begin_layout Plain Layout
+
+print(ARMA)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here the model will be,
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $Y_{t}=-30.56+2.9Y_{t+1}-2.8Y_{t+2}+0.9Y_{t+3}+ε_{t}-1.12ε_{t+1}+0.17ε_{t+2}+0.02ε_{t+3}-0.05θε_{t+4}+0.05ε_{t+5}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To evaluate the effectiveness of the ARMA(3,5) on the test data.
+ If we backcast the model for test data, plot the predicted value against
+ the actual test value and then evaluate the goodness of fit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/ARMA(3,5)_test.svg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Backcast from ARMA(3,5)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Root Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3694.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3706.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on the plot of the backcast and the measures of goodness of fits.
+ This demonstrates that there has been no progress made since the AR(2)
+ model was used.
+\end_layout
+
+\begin_layout Standard
+So far, we have assumed that there is no trend or seasonality in the data.
+ In that way, we tried to fit different models but could not find a good
+ model.
+ So there were trends and seasonality that didn't fit our models well.
+ So now, using the Seasonal Decomposition method to do detrend and deseasonality.
+ Then we fit the model with the residuals.
+\end_layout
+
+\begin_layout Subsection*
+Desesonality and detrend
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Desesonality refers to the process of removing or reducing the seasonal
+ component from a time series.
+ Seasonality can introduce noise, making it difficult to analyze the underlying
+ trends or make accurate forecasts.
+ By deseasonalizing the time series, we can isolate the non-seasonal component
+ and focus on the underlying patterns and trends.
+\end_layout
+
+\begin_layout Standard
+Detrend, on the other hand, refers to the process of removing or estimating
+ the trend component from a time series.
+ The trend represents the long-term systematic change or directionality
+ in the data.
+ It reflects the underlying growth, decline, or stability of the phenomenon
+ being observed, apart from any short-term fluctuations or seasonality.
+ Removing the trend component can help in analyzing the residual fluctuations.
+\end_layout
+
+\begin_layout Standard
+The use of the seasonal decomposition function in order to get rid of trends
+ and seasonality.
+ Decomposing a time series into its many components, such as its trend,
+ seasonality, and residual (or error) component, can be accomplished through
+ the use of a technique known as seasonal decomposition.
+ It is useful for comprehending and evaluating the underlying patterns and
+ structures that are contained within the data.
+ The process of decomposition involves the separation of the many components,
+ which makes it possible to conduct a more in-depth investigation into the
+ features and actions of each individual component.
+\end_layout
+
+\begin_layout Standard
+The additive and multiplicative methods are the two primary methodologies
+ that are utilized in seasonal decomposition.
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\series bold
+\bar under
+Additive Seasonal Decomposition:
+\end_layout
+
+\begin_layout Standard
+The time series is broken down into the sum of its trend, seasonal, and
+ residual components by the use of the additive decomposition technique.
+ The equation for the decomposition can be stated as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+Y(t) = Trend(t) + Seasonal(t) + Residual(t)
+\end_layout
+
+\begin_layout Standard
+The trend component represents the long-term systematic change or directionality
+ in the data.
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\series bold
+\bar under
+Multiplicative Seasonal Decomposition:
+\end_layout
+
+\begin_layout Standard
+When using multiplicative decomposition, a time series is broken down into
+ the product of its trend, seasonal, and residual components.
+ This is one method of decomposing time series.
+ The equation for the decomposition can be stated as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+Y(t) = Trend(t) * Seasonal(t) * Residual(t)
+\end_layout
+
+\begin_layout Standard
+The trend and seasonal components are multiplied, and the residual component
+ represents the remaining variations after removing the trend and seasonal
+ patterns.
+\end_layout
+
+\begin_layout Standard
+Calculation of the Residual Component can be calculated as the difference
+ between the initial time series and the sum or product of the trend and
+ seasonal components.
+ This difference can be used in the calculation of the residual component.
+\end_layout
+
+\begin_layout Standard
+Here, we worked with additive decomposition and then plotted the trend,
+ seasonality, and residual.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA,fig.height=5,fig.width=8>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+series <- ts(data$Greenland_temperature[0:11200], frequency = 50)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# perform time series decomposition
+\end_layout
+
+\begin_layout Plain Layout
+
+decomp <- decompose(series)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# plot the results (flipped with respect to x-axis)
+\end_layout
+
+\begin_layout Plain Layout
+
+par(mfrow = c(4, 1), mar = c(2, 4, 2, 1))
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(rev(series), ylab = "Original", type = "l")
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(rev(decomp$trend), ylab = "Trend", type = "l")
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(rev(decomp$seasonal), ylab = "Seasonal", type = "l")
+\end_layout
+
+\begin_layout Plain Layout
+
+plot(rev(decomp$random), ylab = "Random", type = "l")
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ACF and PACF Plot:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, the ACF and PACF are plotted for the Residual component.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/acf_pacf_test.svg
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ACF & PACF Plot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From this ACF and PACF plot, we can tell that the ACF plot doesn’t have
+ a sharp drop-off.
+ But the PACF plot clearly shows that there is a sharp drop-off after 2
+ or 3 lags, so we should choose the AR model with 2 or 3 orders.
+\end_layout
+
+\begin_layout Standard
+Now,The residual components is split into train and test data.
+ The train length is 8960, which is 80% of the actual series, and the test
+ length is 2240, which is 20% of the actual series.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+t_value <- as.integer(length(decomp$random)*(80/100))
+\end_layout
+
+\begin_layout Plain Layout
+
+train <- decomp$random[1:t_value]
+\end_layout
+
+\begin_layout Plain Layout
+
+test <- decomp$random[(t_value+1):length(decomp$random)]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0("Train: ", length(train)))
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0("Test: ", length(test)))
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+AR(2) model
+\end_layout
+
+\begin_layout Standard
+According to the PACF plot, the AR model is fitted with order p= 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+AR <- arima(train, order = c(2,0,0)) 
+\end_layout
+
+\begin_layout Plain Layout
+
+print(AR)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then the model will be,
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $y_{t}=1.85y{}_{t+1}-0.86y_{t+2}+ε_{t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+then plot the predicted value against the actual test value and evaluate
+ the goodness of fit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/residual_AR(2)_test.svg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+AR(2) on Residual Component
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Root Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.004
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-5474.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-5462.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here the goodness of fit between this and the previous one is nearly the
+ same.
+ There are no such differences from the previous one.
+ So we have not tried any other model on this since there is no such difference
+ in the outcomes.
+\end_layout
+
+\begin_layout Subsubsection*
+Advanced Data Modeling Techniques:
+\end_layout
+
+\begin_layout Standard
+We have seen, using the ACF and PACF plots, that the value at the 
+\begin_inset Formula $n^{th}$
+\end_inset
+
+ position has a good or high correlation with the values at the 
+\begin_inset Formula $n+1^{th},n+2^{th},and\:n+3^{th}$
+\end_inset
+
+ positions.
+ So converted the series into a matrix like; if we have series like 
+\begin_inset Formula $(x_{1},x_{2},x_{3},x_{4},...)$
+\end_inset
+
+ it converted into a matrix that looks like
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{5}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{n-3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{n-2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{n-1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{n}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here the first variables are considered dependent, and the rest y variable
+ is as a predictor, which we have to predict.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+# Suppress warnings
+\end_layout
+
+\begin_layout Plain Layout
+
+options(warn = -1)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+library(dplyr)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+df <- data.frame(Greenland_temperature = series)
+\end_layout
+
+\begin_layout Plain Layout
+
+df_new <- df
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+for (i in 0:3) {
+\end_layout
+
+\begin_layout Plain Layout
+
+  # Shift the DataFrame forward by one period
+\end_layout
+
+\begin_layout Plain Layout
+
+  df_shifted <- dplyr::lag(df, n = i+1)
+\end_layout
+
+\begin_layout Plain Layout
+
+  colnames(df_shifted) <- paste0('x', i)
+\end_layout
+
+\begin_layout Plain Layout
+
+  df_new <- cbind(df_shifted, df_new)
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Print the original and shifted DataFrames
+\end_layout
+
+\begin_layout Plain Layout
+
+colnames(df_new) <- c('x1', 'x2', 'x3', 'x4', 'y')
+\end_layout
+
+\begin_layout Plain Layout
+
+v <- sum(is.na(df_new$x1))
+\end_layout
+
+\begin_layout Plain Layout
+
+df_new <- df_new[(v+1):nrow(df_new), ]
+\end_layout
+
+\begin_layout Plain Layout
+
+head(df_new)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After converting, considered 80% of this data as a training dataset and
+ the rest 20% as test data.
+\end_layout
+
+\begin_layout Standard
+Because the independent variables have a strong correlation with the predictor
+ variable, linear regression is an appropriate method to utilize when analyzing
+ this data set.
+ Therefore, we used a straightforward linear regression model to analyze
+ the test data, and in order to evaluate the effectiveness of the model,
+ we predicted its output for the test data.
+ When we compared the actual value to the predicted value, we discovered
+ an exciting phenomenon: the predicted values were so close to one another
+ that they almost overlapped.
+\end_layout
+
+\begin_layout Standard
+Now if we consider only 1st column of the matrix and fit a linear model
+ on it, we also get better results.
+ For this use of the linear model, the temperature takes reading at the
+ n+kth time point and is used to make predictions about the nth time point
+ data.
+ Right now, we are analyzing the shift in the level of accuracy for k =
+ 1,2,3,4,5,6,...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{t}\sim x_{t+k}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MSE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RMSE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k = 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.99
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-13444.69
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-13433.26
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k = 5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.98
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-6388.43
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-6377.01
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k = 10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-3409.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-3398.32
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k = 15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.89
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1998.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1987.17
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k = 20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.81
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.84
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-766.61
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-755.19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k = 25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.72
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+111.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+123.22
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k = 30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+753.27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+764.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Raising the k value shows that the accrual level is falling; Next, the linear
+ model is fitted with k equal to 32.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Values
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-6.22
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coefficient of x1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.79
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.63
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Linear Regression Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/linear_reg.svg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Plot of Actual vs.
+ Predicted Values
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In comparison to the other models that have been built, this one produced
+ the best results.
+ On the other hand, there are a few drawbacks.
+ These drawbacks include the fact that if familiar with the nth phrase,
+ one also must be familiar with the 
+\begin_inset Formula $(n+k)^{th}$
+\end_inset
+
+ term.
+ In that case, we won't be able to forecast the 
+\begin_inset Formula $n^{th}$
+\end_inset
+
+ term.
+ Again, if we increase the value of k, the correlation between
+\begin_inset Formula $x_{n+k}$
+\end_inset
+
+and 
+\begin_inset Formula $x_{n}$
+\end_inset
+
+ will decrease, which will further lead to a reduction in the accuracy of
+ the prediction.
+\end_layout
+
+\begin_layout Standard
+A few different models are tried out in univariate modeling as methods for
+ backcasting the temperature.
+ However, we still need to achieve the level of accuracy that we want.
+ After that, some variables factors are incorporated, so we transform the
+ univariate data into a multivariate form.
+ Finally, we use some modeling to determine the most accurate backcast.
+\end_layout
+
+\begin_layout Section*
+Multivariate Analysis
+\end_layout
+
+\begin_layout Standard
+In the pursuit of long-term backcasting through univariate analysis, challenges
+ have emerged.
+ Extensive exploration of research papers reveals that various studies have
+ relied on multiple variables to reconstruct paleoclimate temperatures.
+ Consequently, an investigation into processes that align with temperature
+ has started, aiming to identify suitable variables for the primary objective.
+ After thorough searching, several variables with potential have been discovered
+ that are
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ (ppm)
+\end_layout
+
+\begin_layout Itemize
+Volacnic Eruption Tempareture 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ice Surface Temperature 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Download dataset"
+target "https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/kobashi2017/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Data Source:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here the data taken from the Greenland 11,500 Year Temperature Reconstruction
+ is a scientific study conducted by a team of investigators including Kobashi
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-3"
+literal "false"
+
+\end_inset
+
+, T.; Menviel, L.; Jeltsch-Thömmes, A.; Vinther, B.M.; Box, J.E.; Muscheler, R.;
+ Nakagawa, T.; Pfister, P.L.; Döring, M.; Leuenberger, M.; Wanner, H.; and Ohmura.
+ The reconstruction of Greenland's temperature over the past 11,500 years
+ is included in the dataset, in addition to the amount of carbon dioxide
+ measured in parts per million and the time series of volcanic forcing,
+ which illustrates the impact that volcanic activity and co2 have had on
+ the climate.
+ In addition to that, the climate model output for the temperature of the
+ Northern Hemisphere is included in the dataset.
+ Both the study and the dataset were saved in the archives of the World
+ Data Service for Paleoclimatology in Boulder, Colorado, as well as the
+ NOAA Paleoclimatology Program at the National Centers for Environmental
+ Information (NCEI).
+ The following is a list of the site information that can be found for the
+ Greenland 11,500 Year Temperature Reconstruction at the GISP2 site in Greenland
+:
+\end_layout
+
+\begin_layout Standard
+- Site Name: GISP2
+\end_layout
+
+\begin_layout Standard
+- Location: North America>Greenland
+\end_layout
+
+\begin_layout Standard
+- Country: Denmark
+\end_layout
+
+\begin_layout Standard
+- Northernmost Latitude: 72.6
+\end_layout
+
+\begin_layout Standard
+- Southernmost Latitude: 72.6
+\end_layout
+
+\begin_layout Standard
+- Easternmost Longitude: -38.5
+\end_layout
+
+\begin_layout Standard
+- Westernmost Longitude: -38.5
+\end_layout
+
+\begin_layout Standard
+- Elevation: 3200 m
+\end_layout
+
+\begin_layout Standard
+The following information pertains to the Greenland 11,500 Year Temperature
+ Reconstruction site, which is located at the GISP2 location in Greenland.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Download dataset"
+target "https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/kobashi2017/"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+## Import data file
+\end_layout
+
+\begin_layout Plain Layout
+
+multi.data <- read.csv("C:/Users/SVMY/Downloads/multivariate_final.csv")
+\end_layout
+
+\begin_layout Plain Layout
+
+head(multi.data)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Data description:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0(
+\begin_inset Quotes eld
+\end_inset
+
+Rows: 
+\begin_inset Quotes erd
+\end_inset
+
+, dim(multi.data)[1]))
+\end_layout
+
+\begin_layout Plain Layout
+
+print(paste0(
+\begin_inset Quotes eld
+\end_inset
+
+Columns: 
+\begin_inset Quotes erd
+\end_inset
+
+, dim(multi.data)[2]))
+\end_layout
+
+\begin_layout Plain Layout
+
+summary(multi.data)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on what was given, we can figure out the following:
+\end_layout
+
+\begin_layout Standard
+Rows: 11556: There are 11,556 rows or observations in the data set.
+\end_layout
+
+\begin_layout Standard
+Columns: 4: The dataset has four columns, which are also called variables.
+\end_layout
+
+\begin_layout Standard
+These summaries give us a general understanding of the temperature and CO2
+ concentration measurements across the dataset.
+ However, it's important to note that additional context and analysis are
+ necessary to fully interpret and draw meaningful insights from the data.
+ The summary provides information about the distribution of values within
+ each variable.
+ It includes measures such as minimum, first quartile, median, mean, third
+ quartile, and maximum.
+ These statistics allow you to understand the range, central tendency, and
+ variability of the data in each column.
+\end_layout
+
+\begin_layout Subsection*
+Explanatory data analysis:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-5"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Line plot:
+\end_layout
+
+\begin_layout Standard
+\align left
+I'm going to plot these variables against the temperature of Greenland right
+ now
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Final_figure/lineplot.svg
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Line plot of variables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When looking at this figure, one may get the conclusion that each variable
+ has patterns that are analogous to and similar to those seen in the other
+ variables.
+ Right now, I'm looking into how closely those two variables are correlated
+ with one another.
+\end_layout
+
+\begin_layout Subsubsection*
+Correlation Matrix:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+## correlation 
+\end_layout
+
+\begin_layout Plain Layout
+
+cor(multi.data)
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The correlation coefficients between Greenland's temperature, volcanic eruptions
+, ice surface temperature, and concentration of carbon dioxide in the atmosphere
+ are moderately positive.
+ These correlations suggest that higher temperatures in Greenland are associated
+ with higher temperatures during volcanic eruptions.
+ The correlation between Volcanic Eruption Temp and Ice Surface Temperature
+ is high, with 0.822 suggesting that higher temperatures during volcanic
+ eruptions are directly tied to higher temperatures on the surface of the
+ ice.
+ Volcanic Eruption Temperature and CO2.ppm have a moderate association, with
+ 0.564 showing a correlation between greater temperatures and higher quantities
+ of carbon dioxide in the atmosphere.
+ Ice Surface Temperature and Co2.ppm have a slightly positive correlation.
+\end_layout
+
+\begin_layout Subsubsection*
+Scatter Plot:
+\end_layout
+
+\begin_layout Standard
+In addition to that, each variable is plotted alongside the corresponding
+ temperature values.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Final_figure/vs_sactter.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Scatter Plot of each variable
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These scatter plots offer evidence that bolsters our correlation, which
+ you can see here.
+ Given that there is a positive correlation between the variables,It was
+ able to determine that the basic linear model is the one that provides
+ the best fit for this data.
+\end_layout
+
+\begin_layout Subsection*
+Model Fitting:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+MinMax Scaling:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this instance, we have preprocessed the dataset using MinMax scaling
+ before fitting models.
+ MinMax scaling is a common method used to normalize the range of numeric
+ characteristics to a certain range, which is commonly between 0 and 1.
+ This transformation makes sure that all of the features have the same scale
+ and prevents any one feature from taking over the learning process of the
+ model.
+\end_layout
+
+\begin_layout Subsubsection*
+Split the Dataset:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before attempting to fit the model, the dataset was partitioned into 80-20
+ percentiles, with 80 percent of the data serving as the training set and
+ 20 percent as the testing set, respectively, and then attempted to fit
+ the model.
+ We usually split the data set in such a manner to find the best-fitted
+ model.
+ This also helps prevent our model from overfitting.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<<echo=F,comment=NA>>=
+\end_layout
+
+\begin_layout Plain Layout
+
+# Calculate the index to split the data
+\end_layout
+
+\begin_layout Plain Layout
+
+split_index <- round(0.8 * dim(multi.data)[1])
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Split the data into 80% training and 20% testing
+\end_layout
+
+\begin_layout Plain Layout
+
+train_data <- multi.data[1:split_index,]
+\end_layout
+
+\begin_layout Plain Layout
+
+test_data <- multi.data[(split_index + 1):dim(multi.data)[1],]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Print the lengths of the training and testing data sets
+\end_layout
+
+\begin_layout Plain Layout
+
+cat(
+\begin_inset Quotes eld
+\end_inset
+
+Train rows: 
+\begin_inset Quotes erd
+\end_inset
+
+,dim(train_data)[1])
+\end_layout
+
+\begin_layout Plain Layout
+
+cat(
+\begin_inset Quotes eld
+\end_inset
+
+Test rows: 
+\begin_inset Quotes erd
+\end_inset
+
+,dim(test_data)[1])
+\end_layout
+
+\begin_layout Plain Layout
+
+@
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Linear Regression Model:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-8"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Linear regression is a technique used to establish a relationship between
+ a dependent variable and one or more independent variables.
+ It assumes a linear relationship between the variables and aims to find
+ the best-fitting line that represents the data.
+ The line is defined by an intercept (bias) and coefficients (slopes) assigned
+ to each independent variable.
+\end_layout
+
+\begin_layout Standard
+Here are some key components and concepts related to linear regression:
+\end_layout
+
+\begin_layout Enumerate
+Dependent Variable: Also known as the target variable or response variable,
+ it is the variable that we are trying to predict or explain based on the
+ independent variables.
+\end_layout
+
+\begin_layout Enumerate
+Independent Variables: Also known as predictor variables or features, these
+ are the variables used to predict or explain the dependent variable
+\end_layout
+
+\begin_layout Enumerate
+Assumptions: Linear regression assumes that there is a linear relationship
+ between the independent and dependent variables.
+ It also assumes that the residuals (the differences between the observed
+ and predicted values) are normally distributed and have constant variance
+ (homoscedasticity).
+ Additionally, it assumes that the independent variables are not strongly
+ correlated with each other (multicollinearity).
+\end_layout
+
+\begin_layout Enumerate
+Equation: The equation of a linear regression model is represented as:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $Y=β_{0}+β_{1}X_{1}+β_{2}X_{2}+...+β_{n}X_{n}+ε$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+Where:
+\end_layout
+
+\begin_layout Standard
+- Y is the dependent variable.
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Formula $β_{0}$
+\end_inset
+
+ is the intercept or bias term.
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Formula $β_{1},β_{2},...,β_{n}$
+\end_inset
+
+ are the coefficients (slopes) associated with the independent variables
+ 
+\begin_inset Formula $X_{1},X_{2},...,X_{n}.\:and\:ε$
+\end_inset
+
+ is the error term or residual.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+
+Coefficients: The coefficients 
+\begin_inset Formula $(β_{1},β_{2},...,β_{n})$
+\end_inset
+
+ represent the impact or contribution of each independent variable on the
+ dependent variable.
+ They indicate the change in the dependent variable's value for a one-unit
+ change in the corresponding independent variable, assuming all other variables
+ are held constant.
+\end_layout
+
+\begin_layout Standard
+Here is the Linear model after fitting Linear Regression model:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $y=-0.1-0.09X_{1}+0.08X_{2}+1.24X_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where,
+\end_layout
+
+\begin_layout Itemize
+y : Greenland Temperature
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{1}:$
+\end_inset
+
+Volacnic Eruption Tempareture 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{2}:$
+\end_inset
+
+Ice Surface Temperature 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{3}:$
+\end_inset
+
+
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ (ppm)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/SVMY/Downloads/University project github/figures/linear_reg.svg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Model prediction data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.01
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Root Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.75
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10573.26
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10556.02
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The fitted model yielded an R-squared value of 0.75, a Root Mean Square of
+ 0.1, an AIC value of -10573.26, and a BIC value of -10556.02, indicating a
+ good fit.
+ The accuracy of the model is approximately 75%, suggesting its reliability.
+ However, numerous models were tested in an effort to enhance the accuracy
+ rate.
+\end_layout
+
+\begin_layout Subsubsection*
+Passive Aggressive Regression Model:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-8"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+The Passive Aggressive Regression model is particularly useful when dealing
+ with large datasets or scenarios where the data distribution may change
+ over time.
+ It allows for incremental updates and can adapt to changes in the data
+ distribution by adjusting its parameters in response to new observations.
+ It is known for its efficiency and ability to converge quickly, making
+ it suitable for real-time applications or situations where computational
+ resources are limited.
+ So, we are fitting the Aggrative Regression Model, which will update the
+ coefficient of the linear model to get a good prediction.
+\end_layout
+
+\begin_layout Standard
+\align left
+Passive-aggressive regression is an algorithm used for regression tasks
+ where the goal is to predict a continuous target variable based on a set
+ of input features.
+\end_layout
+
+\begin_layout Standard
+In passive-aggressive regression, the algorithm updates its model incrementally,
+ adapting to new training samples one at a time.
+ It is particularly useful in scenarios where the data distribution may
+ change over time or when computational resources are limited.
+\end_layout
+
+\begin_layout Standard
+The passive-aggressive regression algorithm works as follows:
+\end_layout
+
+\begin_layout Enumerate
+Initialize the model: Start with a regression model, such as a linear regression
+ model, and set its coefficients to zero.
+\end_layout
+
+\begin_layout Enumerate
+Iterate through the training samples: For each training sample, do the following
+ steps:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Make a prediction: Use the current model to predict the target variable
+ based on the input features.
+\end_layout
+
+\begin_layout Enumerate
+Calculate the error: Compute the error between the predicted and target
+ values.
+\end_layout
+
+\begin_layout Enumerate
+Update the model: Adjust the model's coefficients based on the error and
+ a predefined aggressiveness parameter.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Repeat step 2 for all training samples until convergence or a maximum number
+ of iterations is reached.
+\end_layout
+
+\begin_layout Standard
+The aggressiveness parameter determines how much the model's coefficients
+ should be updated based on each training sample.
+ A higher aggressiveness value leads to larger updates, potentially allowing
+ the model to adapt quickly to changes in the data.
+ However, a high aggressiveness value may make the model more sensitive
+ to noisy or irrelevant features.
+\end_layout
+
+\begin_layout Standard
+Passive-aggressive regression provides a flexible and efficient approach
+ for online learning and incremental model updates in regression tasks.
+ It can be a useful tool in situations where data is continuously arriving
+ or where computational resources are limited.
+\end_layout
+
+\begin_layout Standard
+Here is the final model after passive-aggressive regression algorithm fitting:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $y=-0.01-0.07X_{1}+0.06X+1.08X_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $y:$
+\end_inset
+
+ Greenland Temperature
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{1}:$
+\end_inset
+
+Volacnic Eruption Tempareture 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{2}:$
+\end_inset
+
+Ice Surface Temperature 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{3}:$
+\end_inset
+
+
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ (ppm)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/SVMY/Downloads/University project github/figures/PAR_linear_reg.svg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Model prediction data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.003
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Root Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.94
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-13705.16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-13687.92
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The fitted model yielded an R-squared value of 0.94, a Root Mean Square of
+ 0.05, an AIC value of -13705.16, and a BIC value of -13687.92, indicating
+ a strong fit.
+ The model accuracy is approximately 94%, suggesting its high level of accuracy.
+ Despite achieving good accuracy in this model, further exploration will
+ be conducted to ascertain if another model can yield even higher accuracy.
+\end_layout
+
+\begin_layout Standard
+Our dataset has so many outliers that we are looking for a model that optimizes
+ these outliers and updates the coefficients of the linear model.
+ There exists a Huber regression model which can help us in this situation.
+ The Huber regression model is a robust regression technique that can be
+ advantageous in the presence of outliers or data points with a strong influence
+ on the model.
+ It assigns less weight to outliers, allowing for a more robust estimation
+ of the regression parameters.
+\end_layout
+
+\begin_layout Subsubsection*
+Huber Regression Model:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-8"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Huber regression model, also known as Huber loss or Huber M-estimator,
+ is a robust regression technique that combines the advantages of both ordinary
+ least squares (OLS) regression and robust regression methods.
+ It is designed to handle outliers and data points with a strong influence
+ on the regMudelsee, M., 2010.
+ Climate time series analysis.
+ Atmospheric.ression model.
+\end_layout
+
+\begin_layout Standard
+In traditional OLS regression, the squared difference between the observed
+ and predicted values is minimized.
+ However, OLS regression is sensitive to outliers, as the squared term amplifies
+ the effect of large residuals.
+ Robust regression methods, on the other hand, down-weight or ignore outliers
+ to mitigate their impact on the model.
+ However, these methods may not perform well when the proportion of outliers
+ is high or when influential data points are present.
+\end_layout
+
+\begin_layout Standard
+The Huber loss function compromises OLS and robust regression methods by
+ combining squared and absolute differences.
+ The Huber loss function is defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L(y,y_{pred})=\begin{cases}
+\frac{1}{2}(y-y_{pred})^{2} & if\;|y-y_{pred}|\leq q\\
+q(|y-y_{pred}|-\frac{q}{2}) & if\;|y-y_{pred}|>q
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where:
+\end_layout
+
+\begin_layout Standard
+- y is the observed value of the dependent variable.
+\end_layout
+
+\begin_layout Standard
+- 
+\begin_inset Formula $y_{pred}$
+\end_inset
+
+ is the predicted value of the dependent variable.
+\end_layout
+
+\begin_layout Standard
+- q is a threshold parameter determining the point at which the loss function
+ transitions from squared to absolute.
+\end_layout
+
+\begin_layout Standard
+In the Huber loss function, when the absolute difference between the observed
+ and predicted values 
+\begin_inset Formula $|y-y_{pred}$
+\end_inset
+
+| is less than or equal to the threshold (q), the loss is quadratic, similar
+ to the squared difference in OLS regression.
+ When the absolute difference exceeds the threshold, the loss becomes linear,
+ similar to the absolute difference in robust regression.
+\end_layout
+
+\begin_layout Standard
+By using a threshold, the Huber loss function effectively handles outliers.
+ When the absolute difference is small (within the threshold), the model
+ is less influenced by those points, similar to robust regression.
+ However, when the absolute difference is large (beyond the threshold),
+ the model is more influenced by those points, similar to OLS regression.
+\end_layout
+
+\begin_layout Standard
+The Huber regression model minimizes the sum of the Huber loss function
+ across all data points to estimate the coefficients (slopes) of the linear
+ regression equation.
+ This can be done using various optimization algorithms, such as gradient
+ descent or iteratively reweighted least squares (IRLS).
+\end_layout
+
+\begin_layout Standard
+The threshold parameter q choice determines the trade-off between robustness
+ and efficiency.
+ A larger q value makes the model more robust to outliers but less efficient
+ for non-outlying data points, while a smaller q value balances robustness
+ and efficiency.
+\end_layout
+
+\begin_layout Standard
+Linear Model for q = 1:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=0.09-0.04X_{1}+0.01X_{2}+0.95X_{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $y:$
+\end_inset
+
+ Greenland Temperature
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{1}:$
+\end_inset
+
+Volacnic Eruption Tempareture 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{2}:$
+\end_inset
+
+Ice Surface Temperature 
+\begin_inset Formula $(\text{°}C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{3}:$
+\end_inset
+
+
+\begin_inset Formula $CO_{2}$
+\end_inset
+
+ (ppm)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/SVMY/Downloads/University project github/figures/huber_reg.svg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Model prediction data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measures
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.001
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Root Mean Square Error
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.04
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R-Squared
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-15020.12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-15002.89
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Goodness of fit measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We were able to determine that our fitted model had an R-squared value of
+ 0.96, a Root mean square of 0.04, an AIC value of -15020.12, and a BIC value
+ of -15002.89 from the goodness of fit.
+ After completing the linear modeling process and calculating the goodness
+ of measure, the current accuracy of this linear model is 96 percent, which
+ is a significant improvement over the accuracy of the models I've used
+ in the past.
+\end_layout
+
+\begin_layout Subsection*
+Conclusion 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have attempted to backcast temperature using a number of different models
+ and methods that are univariate.
+ However, We have not yet achieved the level of accuracy We desire, and
+ there are issues with long-term prediction.
+ After that, We decided to add some pricey factors, transform our univariate
+ data into multivariate data, and finally use a linear model to obtain the
+ backcast.
+ This procedure yielded a satisfactory outcome for us in comparison.
+ Rather than utilizing these two methods of analysis, we should try our
+ hand at some other approaches.
+ If we do so, we may have more success.
+ Because of the constraints placed on our time, we have not attempted any
+ other analyses; nonetheless, it is still possible to conduct a more thorough
+ investigation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Challenges and Limitations
+\end_layout
+
+\begin_layout Standard
+During the course of working on this project, we ran into a number of challenges.
+ Several of these issues include the following:
+\end_layout
+
+\begin_layout Enumerate
+Topic: Regarding the subject at hand, we have no prior experience with it.
+ Regarding this project, we have no prior knowledge whatsoever.
+ We are not familiar with the process of paleoclimate analysis.
+ Therefore, in order to comprehend paleoclimate analysis.
+ We have a lot of research papers that we need to read.
+\end_layout
+
+\begin_layout Enumerate
+Gathering information: Once more, to acquire data, we had to deal with many
+ challenges.
+ The collection of the dataset has evolved into a difficult challenge.
+ In most cases, the collection of these data requires a significant amount
+ of people in addition to a significant sum of money.
+ A researcher needs to go to a challenging location, where there is a possibilit
+y that they will put their lives in danger, in order to acquire this kind
+ of data.
+ As a result of all of these factors, the internet does not make this kind
+ of material easily accessible to the public.
+ A few government websites publish research papers on the studies carried
+ out on paleoclimate analyses.
+ And additionally, publish the dataset that was utilized in their research.
+ Finding raw data, as well as data that has been combined from a variety
+ of variables, can be challenging.
+\end_layout
+
+\begin_layout Enumerate
+Preprocessing: The purpose for which we have decided to start this project,
+ and the accomplishment of my objective, it has become quite tough to acquire
+ the data.
+ In the vast majority of instances, the quantity of the dataset was insufficient.
+ There were a few instances in which we obtained sufficient data; however,
+ there was a deficiency in comparable information.
+ According to what we've read on the internet, Greenland has some number
+ of research centers, each of which is distinctive from the others in a
+ number of important respects.
+ Each facility has applied a uniquely individualized approach to scaling.
+ Due to the fact that we have employed a variety of variables, we face a
+ significant challenge in aggregating all of the data because each variable
+ uses a unique scale mechanism.
+\end_layout
+
+\begin_layout Enumerate
+Statistical analysis: We have got no similar objective in any of the previous
+ study papers.
+ If we had any studies on this topic, then it could be possible for me to
+ make significant progress toward achieving the goal we have set for myself.
+ At the time of analysis, the data cannot accurately capture whether there
+ is a seasonality, trend, or cyclic pattern.
+ Usual time series models do not provide reasonable predictions for this
+ data
+\end_layout
+
+\begin_layout Enumerate
+Time Constraints: Because my available time is restricted, we have fitted
+ some of the models.
+ However, this data can be utilized in a variety of analytical directions
+ using a wide variety of models and approaches.
+ By doing so, we are able to do further and more in-depth studies by employing
+ these data.
+\end_layout
+
+\begin_layout Section*
+Source Code
+\end_layout
+
+\begin_layout Subsubsection*
+Github Link : 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/shubhamoypaul-svmy/PU_Time_Series_Project/tree/master"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-1"
+literal "false"
+
+\end_inset
+
+Davidson, J.E., Stephenson, D.B.
+ and Turasie, A.A., 2016.
+ Time series modeling of paleoclimate data.
+ Environmetrics, 27(1).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-2"
+literal "false"
+
+\end_inset
+
+Mudelsee, M., 2010.
+ Climate time series analysis.
+ Atmospheric and, 397.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-3"
+literal "false"
+
+\end_inset
+
+Kobashi, T.
+ et al.
+ (2017) Volcanic influence on centennial to millennial holocene greenland
+ temperature change, Nature News.
+ Available at: https://www.nature.com/articles/s41598-017-01451-7 (Accessed:
+ 30 May 2023).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-4"
+literal "false"
+
+\end_inset
+
+Li, M., Hinnov, L.
+ and Kump, L., 2019.
+ Acycle: Time-series analysis software for paleoclimate research and education.
+ Computers & Geosciences, 127.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-5"
+literal "false"
+
+\end_inset
+
+Davidson, J.E., Stephenson, D.B.
+ and Turasie, A.A., 2016.
+ Time series modeling of paleoclimate data.
+ Environmetrics, 27(1).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-6"
+literal "false"
+
+\end_inset
+
+National Centers for Environmental Information (NCEI), National Centers
+ for Environmental Information (NCEI).
+ Available at: https://www.ncei.noaa.gov/access/paleo-search/study/17825 (Accessed:
+ 30 May 2023).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-7"
+literal "false"
+
+\end_inset
+
+Kobashi, T., Box, J.E., Vinther, B.M., Goto-Azuma, K., Blunier, T., White, J.W.C.,
+ Nakaegawa, T.
+ and Andresen, C.S., 2015.
+ Modern solar maximum forced late twentieth century Greenland cooling.
+ Geophysical Research Letters, 42(14)
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Ref-8"
+literal "false"
+
+\end_inset
+
+Supervised learning , scikit.
+ Available at: https://scikit-learn.org/stable/supervised_learning.html (Accessed:
+ 31 May 2023).
+\end_layout
+
+\end_body
+\end_document
