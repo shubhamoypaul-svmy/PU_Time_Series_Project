@@ -28,28 +28,18 @@ pip install numpy
 pip install matplotlib
 pip install python-math
 pip install scikit-learn
-
-
-
+pip install statsmodels
 ```
 ## Usage
-Provide instructions on how to use the project. Include command examples or screenshots if applicable. Explain any specific features or functionality that the user should be aware of.
+This project can be used as a reference for researchers or students interested in analyzing paleoclimate data and backcasting past temperatures. The project provides a roadmap for conducting a time series analysis, including data collection, preprocessing, exploratory data analysis, model selection, and validation. The project also discusses the challenges and limitations of working with paleoclimate data, such as the difficulty in acquiring sufficient and comparable data. The developed model can be used to backcast past temperatures in Greenland, contributing to our understanding of climate change and its impacts on the region. The bibliography includes sources on time series modeling of paleoclimate data and software for paleoclimate research and education, which can be useful for further research in this field. The Github link to the source code is provided, which can be used as a starting point for developing similar models or for further analysis of the data.
 
-## Features
-List and describe the key features of your project. Highlight any unique or innovative aspects that make your project stand out.
-
-## Contributing
-Specify guidelines for others who wish to contribute to your project. Include instructions for how to submit bug reports, feature requests, or pull requests. Mention any coding conventions or style guidelines that contributors should follow.
-
-## License
-Indicate the license under which your project is distributed. Choose an appropriate license and provide any additional terms or conditions if necessary. For example:
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
-If you would like to acknowledge any individuals, resources, or tools that have contributed to your project, mention them here.
+We would like to express our sincere gratitude to all those who have contributed to the successful completion of this project. Firstly, we would like to thank our supervisor for providing us with guidance and support throughout the project. Their expertise and insights have been invaluable in shaping the direction of our research.
 
-## Contact
-Provide contact information for the project maintainer or team members. This can include email addresses, social media profiles, or any other preferred means of communication.
+We would also like to thank the authors of the research papers and datasets that we have used in this project. Their work has provided us with a solid foundation for our analysis and has helped us to gain a deeper understanding of the subject matter.
 
-Feel free to customize and expand this README.md template to suit the specific requirements and details of your university project.
+We would like to acknowledge the support of our colleagues and friends who have provided us with encouragement and feedback throughout the project. Their input has been instrumental in shaping our ideas and improving the quality of our work.
+
+Finally, we would like to thank our families for their unwavering support and understanding throughout the project. Their encouragement and belief in us have been a constant source of motivation, and we are grateful for their love and support.
+
