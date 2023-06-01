@@ -6,6 +6,9 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Installation](#installation)
+- [Usage](#usage)
+- [Acknowledgements](#acknowledgements)
+- [References](#references)
 
 
 ## Project Overview
@@ -42,4 +45,9 @@ We would also like to thank the authors of the research papers and datasets that
 We would like to acknowledge the support of our colleagues and friends who have provided us with encouragement and feedback throughout the project. Their input has been instrumental in shaping our ideas and improving the quality of our work.
 
 Finally, we would like to thank our families for their unwavering support and understanding throughout the project. Their encouragement and belief in us have been a constant source of motivation, and we are grateful for their love and support.
+
+## References
+1. [Github](https://github.com/paleoclimate-project/PU_Time_Series_Project)
+2. [NCEI](https://www.ncei.noaa.gov/access/paleo-search/)
+3. [Data](https://www1.ncdc.noaa.gov/pub/data/paleo/reconstructions/kobashi2017/)
 
