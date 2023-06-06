@@ -87,7 +87,7 @@ knitr
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 2
-\paperpagestyle empty
+\paperpagestyle plain
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -124,15 +124,7 @@ knitr
 \begin_inset Newline newline
 \end_inset
 
-Project on Peleoclimate Temperature Backcasting
-\begin_inset Newline newline
-\end_inset
-
-Presidency University
-\begin_inset Newline newline
-\end_inset
-
-4th Semester
+Project on Paleoclimate Temperature Backcasting
 \begin_inset Newline newline
 \end_inset
 
@@ -154,6 +146,26 @@ Shubhamoy Paul
 
 Reg.
  No: 21414170024
+\begin_inset Newline newline
+\end_inset
+
+Roll Number: 21414024
+\begin_inset Newline newline
+\end_inset
+
+CRN: STAT024
+\begin_inset Newline newline
+\end_inset
+
+Session: 2021-2023
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\:$
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -219,9 +231,9 @@ Introduction:
 
 \begin_layout Standard
 According to recent studies, we have seen that most statisticians are busy
- predicting the current temperature, which is obviously most important for
+ predicting the future temperature, which is obviously most important for
  us.
- However, they have forgotten to look at our past while predicting the current
+ However, they have forgotten to look at our past while predicting the future
  temperature.
  Millions of years ago, when our Earth was formed, it was just a ball of
  fire; then, the temperature was much higher than today's.
@@ -302,7 +314,7 @@ Studying paleoclimate gives us essential information about the Earth's climate
 \end_layout
 
 \begin_layout Section*
-Data Collection:
+Nature of Paleoclimate Data:
 \end_layout
 
 \begin_layout Standard
@@ -802,6 +814,70 @@ literal "false"
 
 \end_layout
 
+\begin_layout Subsection*
+Project Plan (project Road map):
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ref-1"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A time series project involves analyzing and modeling data to find trends,
+ seasonality, patterns, and relationships that can help make predictions
+ or decisions.
+ Here is a general plan for a time series project or a roadmap:
+\end_layout
+
+\begin_layout Enumerate
+Set Objective: Figure out how the temperature of green land has changed.
+ Moreover, try to create such a model to backcast past temperatures.
+\end_layout
+
+\begin_layout Enumerate
+Collect and preprocess data: We have to do cleaning, filtering, or scaling
+ if it needs before processing.
+ We have to ensure the data is in a format that can be analyzed.
+\end_layout
+
+\begin_layout Enumerate
+Exploratory data analysis: Conduct exploratory data analysis to understand
+ the data and its characteristics better.
+ This can involve visualizing the data, identifying trends and patterns,
+ and performing statistical tests.
+\end_layout
+
+\begin_layout Enumerate
+Model selection: Select an appropriate model or model to analyze the data.
+ Consider factors such as the nature of the data, the research question,
+ and the desired outcomes.
+\end_layout
+
+\begin_layout Enumerate
+Model fitting and validation: Fit the chosen model to the data and validate
+ its performance.
+ Use statistical metrics such as R-squared, mean squared error, and root
+ mean squared error to assess the model's accuracy.
+\end_layout
+
+\begin_layout Enumerate
+Backcasting: Use the model to predict past events or trends.
+ Evaluate the quality of the backcasts using appropriate metrics.
+\end_layout
+
+\begin_layout Enumerate
+Interpretation: Interpret the analysis results and compare them with the
+ actual temperature.
+\end_layout
+
 \begin_layout Section*
 Univariate Analysis
 \end_layout
@@ -1025,70 +1101,6 @@ mtext("Greenland Temperature",3,cex = 1.0,line = 3.3)
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection*
-Project Plan (project Road map):
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Ref-1"
-literal "false"
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-A time series project involves analyzing and modeling data to find trends,
- seasonality, patterns, and relationships that can help make predictions
- or decisions.
- Here is a general plan for a time series project or a roadmap:
-\end_layout
-
-\begin_layout Enumerate
-Set Objective: Figure out how the temperature of green land has changed.
- Moreover, try to create such a model to backcast past temperatures.
-\end_layout
-
-\begin_layout Enumerate
-Collect and preprocess data: We have to do cleaning, filtering, or scaling
- if it needs before processing.
- We have to ensure the data is in a format that can be analyzed.
-\end_layout
-
-\begin_layout Enumerate
-Exploratory data analysis: Conduct exploratory data analysis to understand
- the data and its characteristics better.
- This can involve visualizing the data, identifying trends and patterns,
- and performing statistical tests.
-\end_layout
-
-\begin_layout Enumerate
-Model selection: Select an appropriate model or model to analyze the data.
- Consider factors such as the nature of the data, the research question,
- and the desired outcomes.
-\end_layout
-
-\begin_layout Enumerate
-Model fitting and validation: Fit the chosen model to the data and validate
- its performance.
- Use statistical metrics such as R-squared, mean squared error, and root
- mean squared error to assess the model's accuracy.
-\end_layout
-
-\begin_layout Enumerate
-Backcasting: Use the model to predict past events or trends.
- Evaluate the quality of the backcasts using appropriate metrics.
-\end_layout
-
-\begin_layout Enumerate
-Interpretation: Interpret the analysis results and compare them with the
- actual temperature.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1480,7 +1492,7 @@ Based on the polynomial plot, it is evident that there is no discernible
 \end_layout
 
 \begin_layout Subsubsection*
-Augmented–Dickey–Fuller test:
+Augmented Dickey–Fuller test:
 \begin_inset Newline newline
 \end_inset
 
@@ -1504,7 +1516,7 @@ In time series analysis, "stationarity" means that the statistical properties
  We need to check whether the time series is stationary to avoid these negative
  effects.
  There are several ways to determine whether a time series is stationary.
- we use the most common method, the Augmented–Dickey–Fuller (ADF) test.
+ we use the most common method, the Augmented Dickey–Fuller (ADF) test.
 \end_layout
 
 \begin_layout Standard
@@ -1532,7 +1544,7 @@ library(tseries)
 
 \begin_layout Plain Layout
 
-# Conduct the augmented Dickey-Fuller test
+# Conduct the Augmented Dickey-Fuller test
 \end_layout
 
 \begin_layout Plain Layout
@@ -2084,7 +2096,7 @@ The lowest AIC, BIC, and HQIC values.
 \end_layout
 
 \begin_layout Subsection*
-Back casting past temperature:
+Backcasting past temperature:
 \begin_inset Newline newline
 \end_inset
 
@@ -3042,7 +3054,7 @@ So far, we have assumed that there is no trend or seasonality in the data.
 \end_layout
 
 \begin_layout Subsection*
-Desesonality and detrend
+Detrending & Seasonality Removal in Paleoclimate
 \begin_inset Newline newline
 \end_inset
 
@@ -3050,16 +3062,16 @@ Desesonality and detrend
 \end_layout
 
 \begin_layout Standard
-Desesonality refers to the process of removing or reducing the seasonal
- component from a time series.
+Seasonality removal refers to removing or reducing the seasonal component
+ from a time series.
  Seasonality can introduce noise, making it difficult to analyze the underlying
  trends or make accurate forecasts.
- By deseasonalizing the time series, we can isolate the non-seasonal component
- and focus on the underlying patterns and trends.
+ By removing seasonality from the time series, we can isolate the non-seasonal
+ component and focus on the underlying patterns and trends.
 \end_layout
 
 \begin_layout Standard
-Detrend, on the other hand, refers to the process of removing or estimating
+Detrending, on the other hand, refers to the process of removing or estimating
  the trend component from a time series.
  The trend represents the long-term systematic change or directionality
  in the data.
@@ -3070,10 +3082,9 @@ Detrend, on the other hand, refers to the process of removing or estimating
 
 \begin_layout Standard
 The use of the seasonal decomposition function in order to get rid of trends
- and seasonality.
- Decomposing a time series into its many components, such as its trend,
- seasonality, and residual (or error) component, can be accomplished through
- the use of a technique known as seasonal decomposition.
+ and seasonality Decomposing a time series into its many components, such
+ as its trend, seasonality, and residual (or error) component, can be accomplish
+ed through the use of a technique known as decomposition.
  It is useful for comprehending and evaluating the underlying patterns and
  structures that are contained within the data.
  The process of decomposition involves the separation of the many components,
@@ -3083,7 +3094,7 @@ The use of the seasonal decomposition function in order to get rid of trends
 
 \begin_layout Standard
 The additive and multiplicative methods are the two primary methodologies
- that are utilized in seasonal decomposition.
+ that are utilized in decomposition.
 \end_layout
 
 \begin_layout Standard
@@ -3091,7 +3102,7 @@ The additive and multiplicative methods are the two primary methodologies
  
 \series bold
 \bar under
-Additive Seasonal Decomposition:
+Additive Decomposition:
 \end_layout
 
 \begin_layout Standard
@@ -3115,7 +3126,7 @@ The trend component represents the long-term systematic change or directionality
  
 \series bold
 \bar under
-Multiplicative Seasonal Decomposition:
+Multiplicative Decomposition:
 \end_layout
 
 \begin_layout Standard
@@ -4786,7 +4797,7 @@ In the pursuit of long-term backcasting through univariate analysis, challenges
 \end_layout
 
 \begin_layout Itemize
-Volacnic Eruption Tempareture 
+Volacnic Eruption Temperature 
 \begin_inset Formula $(\text{°}C)$
 \end_inset
 
@@ -5013,10 +5024,14 @@ These summaries give us a general understanding of the temperature and CO2
  quartile, and maximum.
  These statistics allow you to understand the range, central tendency, and
  variability of the data in each column.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
-Explanatory data analysis:
+Exploratory Data Analysis:
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Ref-5"
@@ -5717,8 +5732,8 @@ The Passive Aggressive Regression model is particularly useful when dealing
  It is known for its efficiency and ability to converge quickly, making
  it suitable for real-time applications or situations where computational
  resources are limited.
- So, we are fitting the Aggrative Regression Model, which will update the
- coefficient of the linear model to get a good prediction.
+ So, we are fitting the Passive Aggressive Regression Model, which will
+ update the coefficient of the linear model to get a good prediction.
 \end_layout
 
 \begin_layout Standard
@@ -5793,7 +5808,7 @@ Here is the final model after passive-aggressive regression algorithm fitting:
 
 \begin_layout Standard
 \align center
-\begin_inset Formula $y=-0.01-0.07X_{1}+0.06X+1.08X_{3}$
+\begin_inset Formula $y=-0.01-0.07X_{1}+0.06X_{2}+1.08X_{3}$
 \end_inset
 
 
